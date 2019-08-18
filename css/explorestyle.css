@@ -1,0 +1,124 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: cursive;
+	background-color: #151516ab;
+	font-family: cursive;
+	background-color: #287a198a;
+	background-image: url("../skyblue1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.header-section2{
+	background-color: #29a46b73;
+	height: 196px;
+}
+.logo-wrapper2, .menu-wrapper2{  
+	height: 100%;
+	float: left;
+}
+.logo-wrapper2{
+	width: 22%;
+	background-color: #333a3475;
+	color: #fff;
+	display: table;
+	margin-left: 44px;
+}
+.logo-wrapper2> h1{
+	font-family: cursive;
+	font-size: 37px;
+	text-transform: uppercase;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	letter-spacing: 1px;
+	color: #4ebe29e6;
+	padding-bottom: 43px;
+}
+.menu-wrapper2{
+	width: 70%;
+	display: table;
+
+}
+ul li a:hover{
+	background-color: grey;
+}
+ul li a{
+	color: white;
+	text-decoration: none;
+	background-color: #339556cc;
+	padding: 11px 23px;
+	margin: 0 35px;
+	border-radius: 3px;
+	font-size: 15px;
+
+}
+ul.nav-menu2{
+	list-style: none;
+	display: table-cell;
+	vertical-align: middle;
+	padding-top: 23px;
+	text-align: right;
+}
+ul.nav-menu2 li, ul.nav-menu2 li a{
+	display: inline-block;
+}
+.login2{
+	width: 73px;
+	height: 30px;
+	font-size: 13px;
+	background-color: #299d3f;
+	color: white;
+	font-family: cursive;
+}
+.sign2{
+	width: 73px;
+	height: 30px;
+	font-size: 13px;
+	background-color: #299d3f;
+	color: white;
+	font-family: cursive;
+}
+.pigeon2{
+	height: 117px;
+	width:111px;
+}
+.theme2{
+	text-align: center;
+	color: #041006;
+	font-size: 45px;
+}
+.slider{
+	width: 1000px;
+	height: 700px;
+	background: url("../skyblue1.jpg");
+	margin:100px auto;
+	animation: slide  40s infinite;
+
+}
+@keyframes slide{
+	15%{
+		background:url("../lumbini1.jpg");
+	}
+	30%{
+		background:url("../everest.jpg");
+	}
+	45%{
+		background:url("../rara_lake.jpg");
+	}
+	60%{
+		background:url("../pokhara.jpg");
+	}
+	
+	75%{
+		background:url("../chile.jpg");
+	}
+	90%{
+		background:url("../thailand.jpg");
+	}
+    
+}

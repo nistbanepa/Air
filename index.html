@@ -1,0 +1,96 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<title>Explore the world</title>
+	<link href="home.css" rel="stylesheet">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+</head>
+<body>
+	<div class="header-section2">
+			<div class="container">
+				<div class="logo-wrapper2">
+					<img src="pigeon1.png" class="pigeon2">
+					<h1 class="logo">Rainbow Nepal Airlines</h1>
+				</div>
+				<div class="menu-wrapper2">
+					<ul class="nav-menu2">
+						<li><a href="index.html" class="active2">Home</a></li>
+						<li><a href="book.html">Book</a></li>
+						<li><a href="explore.html">Explore</a></li>
+						<li><a href="travel.html">Travel Info</a></li>
+						<li><a href="about.html">About Us</a></li><br><br>
+						
+								<h1 class="theme2"><marquee>FLY WITH US</marquee></h1>
+								
+						<button onclick="document.getElementById('id02').style.display='block'" style="width:auto;">Login</button>
+						<div id="id02" class="model1">
+							<form class="modal-content1 animate1" action="connection.php" method="post">
+						    <div class="imgcontainer1">
+						      <img src="login.png" alt="Avatar" class="avatar1">
+						    </div>
+
+						    <div class="container2">
+						      <label for="uname"><b>Username</b></label>
+						      <input type="text" placeholder="Enter Username" name="uname" required class="input123"><br>
+						      <label for="psw"><b>Password</b></label>
+						      <input type="password" placeholder="Enter Password" name="psw" required class="input123"><br>
+						        
+						      <button type="submit" class="submit12">Login</button><br>
+						      <label>
+						        <input type="checkbox" checked="checked" name="remember" class="checkbox1"> Remember me
+						      </label>
+						    </div><br>
+
+						    <div class="container3">
+						      <button type="button" onclick="document.getElementById('id02').style.display='none'" class="cancelbtn1">Cancel</button>
+						      <span class="psw1">Forgot <a href="#">password?</a></span>
+						    </div>
+						  </form>
+						</div>
+						<button type="submit" class="sign" onclick="document.getElementById('id01').style.display='block'">Sign Up</button>
+
+						<div id="id01" class="modal">
+						  <span onclick="document.getElementById('id01').style.display='none'" class="close" title="Close Modal">&times;</span>
+						  <form class="modal-content" action="connection.php" method="post">
+						    <div class="container1">
+						      <h1>Sign Up</h1>
+						      <p>Please fill in this form to create an account.</p>
+						      <hr>
+						      <label for="email"><b>Email</b></label>
+						      <input type="text" placeholder="Enter Email" name="email" required><br>
+
+						      <label for="psw"><b>Password</b></label>
+						      <input type="password" placeholder="Enter Password" name="psw" required><br>
+
+						      <label for="psw-repeat"><b>Repeat Password</b></label>
+						      <input type="password" placeholder="Repeat Password" name="psw_repeat" required><br>
+						      
+						      <label>
+						        <input type="checkbox" checked="checked" name="remember" style="margin-bottom:15px"> Remember me
+						      </label>
+
+						      <p>By creating an account you agree to our <a href="#" style="color:dodgerblue">Terms & Privacy</a>.</p>
+						      <div class="clearfix">
+						        <button type="button" onclick="document.getElementById('id01').style.display='none'" class="cancelbtn">Cancel</button>
+						        <button type="submit" class="signupbtn">Sign Up</button>
+						      </div>
+						    </div>
+						  </form>
+					
+					</ul>
+				</div>
+			</div>
+		</div>
+				<div class="footer-section">
+			<div class="copy">
+				<p class="p8">&copy;Copyright 2019 | All Rights Reserved.</p>
+			</div>
+
+			
+			</div>
+		
+</body>
+</html>

@@ -1,0 +1,264 @@
+ *{
+    margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.clearfix{
+  clear:both;
+}
+body{
+  font-family: cursive;
+  background-color: #151516ab;
+  font-family: cursive;
+  background-color: #287a198a;
+  background-image: url("../airplane2.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.header-section2{
+  background-color: #29a46b73;
+  height: 196px;
+}
+
+.container{
+  width:95%;
+  margin:0 auto;
+  height:100%;
+}
+
+.container1{
+  width:95%;
+  margin:0 auto;
+  height:100%;
+}
+.logo-wrapper2, .menu-wrapper2{  
+  height: 100%;
+  float: left;
+}
+.logo-wrapper2{
+  width: 22%;
+  background-color: #333a3475;
+  color: #fff;
+  display: table;
+  margin-left: 44px;
+}
+.logo-wrapper2> h1{
+  font-family: cursive;
+  font-size: 37px;
+  text-transform: uppercase;
+  text-align: center;
+  display: table-cell;
+  vertical-align: middle;
+  letter-spacing: 1px;
+  color: #4ebe29e6;
+  padding-bottom: 43px;
+}
+.menu-wrapper2{
+  width: 70%;
+  display: table;
+
+}
+ul li a:hover{
+  background-color: grey;
+}
+ul li a{
+  color: white;
+  text-decoration: none;
+  background-color: #339556cc;
+  padding: 11px 23px;
+  margin: 0 35px;
+  border-radius: 3px;
+  font-size: 15px;
+
+}
+ul.nav-menu2{
+  list-style: none;
+  display: table-cell;
+  vertical-align: middle;
+  padding-top: 23px;
+  text-align: right;
+}
+ul.nav-menu2 li, ul.nav-menu2 li a{
+  display: inline-block;
+}
+
+
+input[type=text], input[type=password] {
+    width: 35%;
+    padding: 2px;
+    margin: 5px 0 22px 0;
+    display: inline-block;
+    border: none;
+    background: #d7a3a3;
+}
+.input {
+    background-color: #b07676bf;
+    font-weight: bold;
+}
+/* Add a background color when the inputs get focus */
+input[type=text]:focus, input[type=password]:focus {
+  background-color: #ddd;
+  outline: none;
+}
+
+/* Set a style for all buttons */
+button {
+  background-color: #4CAF50;
+  color: white;
+  padding: 14px 20px;
+  margin: 8px 0;
+  border: none;
+  cursor: pointer;
+  width: 9%;
+  opacity: 0.9;
+}
+
+button:hover {
+  opacity:1;
+}
+
+/* Extra styles for the cancel button */
+.cancelbtn {
+  padding: 14px 20px;
+  background-color: #f44336;
+}
+
+/* Float cancel and signup buttons and add an equal width */
+.cancelbtn, .signupbtn {
+  float: right;
+    width: 30%;
+}
+
+/* Add padding to container elements */
+.container {
+  padding: 16px;
+}
+
+/* The Modal (background) */
+.modal {
+  display: none; /* Hidden by default */
+  position: fixed; /* Stay in place */
+  z-index: 1; /* Sit on top */
+  left: 0;
+  top: 0;
+ /* Full width */
+  /* Full height */
+  overflow: auto; /* Enable scroll if needed */
+  background-color: #474e5d;
+  margin: 0px 0px 0px 0px;
+  padding: 0px 0px 0px 0px;
+  width: 100%;
+  height: 100%;
+  
+}
+
+/* Modal Content/Box */
+.modal-content {
+  background-color: #2ad777bf;
+    margin: 39px 11px 0px 236px;
+    border: 9px solid #b08888;
+    width: 71%;
+    padding-right: 333px;
+}
+}
+
+/* Style the horizontal ruler */
+hr {
+  border: 1px solid #f1f1f1;
+  margin-bottom: 25px;
+}
+ 
+/* The Close Button (x) */
+.close {
+  position: absolute;
+  right: 35px;
+  top: 15px;
+  font-size: 40px;
+  font-weight: bold;
+  color: #f1f1f1;
+}
+
+.close:hover,
+.close:focus {
+  color: #f44336;
+  cursor: pointer;
+}
+
+/* Clear floats */
+.clearfix::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+/* Change styles for cancel button and signup button on extra small screens */
+@media screen and (max-width: 300px) {
+  .cancelbtn, .signupbtn {
+     width: 100%;
+  }
+}
+
+
+.pigeon2{
+  height: 117px;
+  width:111px;
+}
+.theme2{
+  text-align: center;
+  color: #041006;
+  font-size: 45px;
+}
+
+.follow{
+  background-color: black;
+}
+.font{
+  color: black;
+}
+  .modal1 {
+    display: none;
+    position: fixed;
+    z-index: 1;
+    left: 0;
+    top: 0;
+    width: 55%;
+    height: 70%;
+    overflow: auto;
+    background-color: rgb(0,0,0);
+    background-color: rgba(0,0,0,0.4);
+    margin: 177px 16px 3px 510px;
+}
+.modal-content1 {
+    background-color: #744a4a;
+    margin: 42px -5px 0px 81px;
+    border: 1px solid #888;
+    width: 80%;
+    padding: 11px 206px 0px 0px;
+}
+.submit12{
+  width: 106px;
+  height: 44px;
+}
+.cancelbtn1{
+  width: 106px;
+  height: 44px;
+  background-color: red;
+}
+.footer-section{
+  background-color: #3db25082;
+  width: 1519px;
+  height: 150px;
+
+}
+.p8{
+  margin-left: 595px;
+  margin-top: 1px;
+  padding-top: 68px;
+  color: black;
+  font-weight: bolder;
+}
+.copy{
+  margin-top: 356px;
+}

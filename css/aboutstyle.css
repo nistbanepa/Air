@@ -1,0 +1,148 @@
+*{
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+}
+body{
+	font-family: cursive;
+	background-color: #151516ab;
+	font-family: cursive;
+	background-color: #287a198a;
+	background-image: url("../lumbini1.jpg");
+  background-repeat: no-repeat;
+  background-attachment: fixed;
+  background-size: 100%;
+}
+.header-section2{
+	background-color: #29a46b73;
+	height: 196px;
+}
+.logo-wrapper2, .menu-wrapper2{  
+	height: 100%;
+	float: left;
+}
+.logo-wrapper2{
+	width: 22%;
+	background-color: #333a3475;
+	color: #fff;
+	display: table;
+	margin-left: 44px;
+}
+.logo-wrapper2> h1{
+	font-family: cursive;
+	font-size: 37px;
+	text-transform: uppercase;
+	text-align: center;
+	display: table-cell;
+	vertical-align: middle;
+	letter-spacing: 1px;
+	color: #4ebe29e6;
+	padding-bottom: 43px;
+}
+.menu-wrapper2{
+	width: 70%;
+	display: table;
+
+}
+ul li a:hover{
+	background-color: grey;
+}
+ul li a{
+	color: white;
+	text-decoration: none;
+	background-color: #339556cc;
+	padding: 11px 23px;
+	margin: 0 35px;
+	border-radius: 3px;
+	font-size: 15px;
+
+}
+ul.nav-menu2{
+	list-style: none;
+	display: table-cell;
+	vertical-align: middle;
+	padding-top: 23px;
+	text-align: right;
+}
+ul.nav-menu2 li, ul.nav-menu2 li a{
+	display: inline-block;
+}
+.login2{
+	width: 73px;
+	height: 30px;
+	font-size: 13px;
+	background-color: #299d3f;
+	color: white;
+	font-family: cursive;
+}
+.sign2{
+	width: 73px;
+	height: 30px;
+	font-size: 13px;
+	background-color: #299d3f;
+	color: white;
+	font-family: cursive;
+}
+.pigeon2{
+	height: 117px;
+	width:111px;
+}
+.theme2{
+	text-align: center;
+	color: #041006;
+	font-size: 45px;
+}
+.divaboutcontent{
+	width: 80%;
+}
+.pcontent{
+	margin: 77px 9px 18px 144px;
+    padding: 8px 21px 24px 109px;
+    border: 3px solid #57db2cba;
+    color: #0f0f0f;
+    border-radius: 95px;
+    background-color: #4da5ae6b;
+}
+.divsecondcontent{
+	width: 80%;
+
+}
+.pabout2{
+	border: 3px solid #45bc28;
+    border-radius: 69px;
+    padding: 28px 101px 0px 104px;
+    margin: 11px 12px 11px 152px;
+    color: black;
+    background-color: #4da5ae6b;
+}
+.pabout3{
+	border: 3px solid #45bc28;
+    border-radius: 69px;
+    padding: 28px 101px 0px 104px;
+    margin: 11px 12px 11px 152px;
+    color: black;
+    background-color: #4da5ae6b;
+}
+h1{
+	margin-left: 262px;
+}
+.aboutinfo{
+	margin-top: 0px;
+	margin-bottom: -65px;
+}
+.footer-section{
+	background-color: #3db25082;
+	width: 1519px;
+	height: 150px;
+
+}
+.p8{
+	margin-left: 595px;
+	margin-top: 1px;
+	padding-top: 68px;
+	color: black;
+	font-weight: bolder;
+}
+.copy{
+	margin-top: 356px;
+}
